@@ -1,0 +1,31 @@
+{
+  "name": "clear-view-escapes",
+  "version": "0.0.1",
+  "description": "This is a fictional web site for travel agency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-bulygin/ClearViewEscapes.git"
+  },
+  "keywords": [
+    "udacity",
+    "travel",
+    "web",
+    "site",
+    "npm",
+    "gulp"
+  ],
+  "author": "Max Bulygin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-bulygin/ClearViewEscapes/issues"
+  },
+  "homepage": "https://github.com/max-bulygin/ClearViewEscapes#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize.css": "^5.0.0"
+  }
+}
