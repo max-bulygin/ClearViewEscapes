@@ -1,0 +1,13 @@
+/*$color: red;*/
+:root {
+  --color: red;
+}
+body {
+  color: var(--color);
+  -webkit-columns: 400px 3;
+     -moz-columns: 400px 3;
+          columns: 400px 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

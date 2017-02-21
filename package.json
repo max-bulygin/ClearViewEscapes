@@ -11,7 +11,7 @@
     "url": "git+https://github.com/max-bulygin/ClearViewEscapes.git"
   },
   "keywords": [
-    "udacity",
+    "udemy",
     "travel",
     "web",
     "site",
@@ -27,5 +27,12 @@
   "dependencies": {
     "jquery": "^3.1.1",
     "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.4",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-custom-properties": "^5.0.2"
   }
 }

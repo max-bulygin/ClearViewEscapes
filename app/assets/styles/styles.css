@@ -1,0 +1,9 @@
+/*$color: red;*/
+:root {
+  --color: red;
+}
+body {
+  color: var(--color);
+  columns: 400px 3;
+  display: flex;
+}
