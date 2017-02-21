@@ -7,9 +7,9 @@
 *.swo
 *.swp
 *.vi
-*~
 *.sass-cache
 node_modules/
+.idea
 .tmp/
 
 # OS or Editor folders
