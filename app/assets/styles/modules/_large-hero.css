@@ -14,8 +14,20 @@
 .large-hero__title {
   font-weight: 300;
   color: var(--mainBlue);
-  font-size: 4.8rem;
   margin: 0;
+  font-size: 1.1rem;
+
+  @mixin atSmall {
+    font-size: 2rem;
+  }
+
+  @mixin atMedium {
+    font-size: 3.2rem;
+  }
+
+  @mixin atLarge {
+    font-size: 4.8rem;
+  }
 }
 
 .large-hero__subtitle {
