@@ -1,0 +1,15 @@
+:root {
+  --text: #333;
+  --mainBlue: #2f5572;
+  --mainOrange: #d59541;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
