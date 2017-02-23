@@ -6,8 +6,16 @@
   margin-right: -65px;
 }
 
+.row--gutters-large {
+  margin-right: -100px;
+}
+
 .row--gutters > div {
   padding-right: 65px;
+}
+
+.row--gutters-large > div {
+  padding-right: 100px;
 }
 
 @mixin atMedium {
@@ -23,6 +31,11 @@
   .row__medium-8 {
     float: left;
     width: 66.66%;
+  }
+
+  .row__medium-6 {
+    float: left;
+    width: 50%;
   }
 
   .row__medium-8--smaller {

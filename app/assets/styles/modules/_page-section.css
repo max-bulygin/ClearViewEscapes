@@ -8,4 +8,5 @@
 
 .page-section--blue {
   background-color: var(--mainBlue);
+  color: #fff;
 }
