@@ -13,3 +13,11 @@ img {
   height: auto;
   vertical-align: baseline;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--mainOrange);
+}

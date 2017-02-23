@@ -1,0 +1,47 @@
+.headline {
+  font-weight: 300;
+  font-size: 1.9rem;
+  color: var(--mainBlue);
+
+  @mixin atSmall {
+    font-size: 2.875rem;
+  }
+}
+
+.headline--centered {
+  text-align: center;
+}
+
+.headline--orange {
+  color: var(--mainOrange);
+}
+
+.headline--small {
+  font-size: 1.2rem;
+
+  @mixin atSmall {
+    font-size: 1.875rem;
+  }
+}
+
+.headline--narrow {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline--light {
+  font-weight: 100;
+}
+
+.headline--b-margin-sm {
+  margin-bottom: .5em;
+}
+
+.headline--b-margin-lg {
+  margin-bottom: 1.6em;
+}
+
+.headline--no-t-margin {
+  margin-top: 0;
+}
