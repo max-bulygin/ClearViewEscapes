@@ -8,6 +8,18 @@
   }
 }
 
+.section-title--no-t-marging {
+  margin-top: .83em;
+
+  @mixin atMedium {
+    margin-top: 0;
+  }
+}
+
+.section-title--blue {
+  color: var(--mainBlue);
+}
+
 .section-title strong {
   font-weight: 500;
 }
@@ -19,6 +31,8 @@
   margin-bottom: .6rem;
 
   @mixin atSmall {
+    position: relative;
+    top: 8px;
     margin-right: .5rem;
     margin-left: 0;
     display: inline-block;
