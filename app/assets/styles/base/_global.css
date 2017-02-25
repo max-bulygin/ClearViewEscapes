@@ -20,4 +20,5 @@ img {
 
 a {
   color: var(--mainOrange);
+  cursor: pointer;
 }
