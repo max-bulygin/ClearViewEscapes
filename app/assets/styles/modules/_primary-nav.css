@@ -47,6 +47,12 @@
   }
 }
 
+.primary-nav a.is-current-link {
+  @mixin atMedium {
+    color: #fabb69;
+  }
+}
+
 .primary-nav--pull-right {
 
   @mixin atMedium {
