@@ -6,8 +6,13 @@
   transition: background-color .3s ease-out;
 
   @mixin atMedium {
+    position: fixed;
     background-color: rgba(47, 85, 114, .3);
   }
+}
+
+.site-header--dark {
+  background-color: rgba(23, 51, 72, .85);
 }
 
 .site-header__menu-content {
@@ -47,10 +52,18 @@
   transform-origin: 50% 0;
   background-color: var(--mainBlue);
   padding: 25px 36px;
+  transition: transform .3s ease-out;
 
   @mixin atMedium {
     left: auto;
     transform: translateX(0);
+  }
+}
+
+.site-header--dark .site-header__logo {
+
+  @mixin atMedium {
+    transform: scale(.565);
   }
 }
 
