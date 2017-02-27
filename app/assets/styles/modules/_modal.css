@@ -1,0 +1,53 @@
+.modal {
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(255, 255 ,255, .94);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.2);
+  transition: all .3s ease-out;
+}
+
+.modal__description {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.65;
+
+  @mixin atMedium {
+    font-size: 1.3rem;
+  }
+}
+
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2rem;
+  transform: scaleX(1.2);
+  transform-origin: 0 100%;
+  color: var(--mainBlue);
+  cursor: pointer;
+  transition: color .2s ease-in-out;
+}
+
+.modal__close:hover {
+  color: var(--mainOrange);
+}
+
+.modal__inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal--is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
