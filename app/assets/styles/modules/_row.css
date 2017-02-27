@@ -97,7 +97,7 @@
   margin-bottom: 1rem;
 }
 
-.row--eq-height-medium {
+.flexbox .row--eq-height-medium {
   @mixin atMedium {
     display: flex;
   }
@@ -108,7 +108,7 @@
   }
 }
 
-.row--eq-height-large {
+.flexbox .row--eq-height-large {
   @mixin atLarge {
     display: flex;
   }
@@ -118,4 +118,3 @@
     display: flex;
   }
 }
-

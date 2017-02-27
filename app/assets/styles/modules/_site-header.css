@@ -63,7 +63,7 @@
 .site-header--dark .site-header__logo {
 
   @mixin atMedium {
-    transform: scale(.565);
+    transform: scale(.55);
   }
 }
 

@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -11168,7 +11168,7 @@ class RevealOnScroll {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_waypoints_lib_noframework_waypoints__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_waypoints_lib_noframework_waypoints___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__node_modules_waypoints_lib_noframework_waypoints__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery_smooth_scroll__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery_smooth_scroll__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery_smooth_scroll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_jquery_smooth_scroll__);
 
 
@@ -11176,7 +11176,7 @@ class RevealOnScroll {
 
 class StickyHeader {
     constructor(){
-        this.lazyImages = __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.lazyload');
+        // this.lazyImages = $('.lazyload');
         this.siteHeader = __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.site-header');
         this.headerTriggerElem = __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.large-hero__title');
         this.pageSection = __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.page-section');
@@ -11184,14 +11184,14 @@ class StickyHeader {
         this.createHeaderWaypoint();
         this.createPageSectionWaypoints();
         this.addSmoothScrolling();
-        this.refreshWaypoints();
+        // this.refreshWaypoints();
     }
 
-    refreshWaypoints() {
-        this.lazyImages.load(function () {
-            Waypoint.refreshAll();
-        })
-    }
+    // refreshWaypoints() {
+    //     this.lazyImages.load(function () {
+    //         Waypoint.refreshAll();
+    //     })
+    // }
 
     addSmoothScrolling() {
         this.headerLinks.smoothScroll();
@@ -11247,7 +11247,9 @@ class StickyHeader {
 
 /***/ }),
 /* 6 */,
-/* 7 */
+/* 7 */,
+/* 8 */,
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11595,7 +11597,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 8 */
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11619,6 +11621,7 @@ new __WEBPACK_IMPORTED_MODULE_1__modules_RevealOnScroll__["a" /* default */](__W
 
 var stickyHeader = new __WEBPACK_IMPORTED_MODULE_2__modules_StickyHeader__["a" /* default */]();
 var modal = new __WEBPACK_IMPORTED_MODULE_4__modules_Modal__["a" /* default */]();
+
 
 /***/ })
 /******/ ]);
