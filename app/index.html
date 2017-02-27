@@ -9,6 +9,7 @@
     <meta name="description"
           content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
     <link rel="stylesheet" href="temp/styles/styles.css">
+    <script src="temp/scripts/vendor.js"></script>
 </head>
 <body>
 <header class="site-header">
@@ -75,13 +76,13 @@
             <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
                 <picture>
                     <source sizes="404px"
-                            srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w"
+                            data-srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w"
                             media="(min-width: 1200px)">
                     <source sizes="320px"
-                            srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w"
+                            data-srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w"
                             media="(min-width: 800px)">
-                    <img src="assets/images/our-start-landscape.jpg"
-                         srcset="assets/images/our-start-landscape-hi-dpi.jpg 2x"
+                    <img class="lazyload"
+                         data-srcset="assets/images/our-start-landscape-hi-dpi.jpg 2x"
                          alt="Our founder, Jane Doe">
                 </picture>
             </div>
@@ -187,7 +188,7 @@
     </div>
 </div>
 
-<div class="page-section page-section--no-b-padding-until-large page-section--testimonials"
+<div class="page-section page-section--no-b-padding-until-large page-section--testimonials lazyload"
      id="testimonials" data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
 
@@ -197,10 +198,10 @@
             <div class="row__large-4">
                 <div class="testimonial">
                     <div class="testimonial__photo">
-                        <img src="assets/images/testimonial-jane.jpg"
+                        <img class="lazyload"
                              sizes="160px"
                              alt="Jane Doe"
-                             srcset="assets/images/testimonial-jane-hi-dpi.jpg 2x">
+                             data-srcset="assets/images/testimonial-jane-hi-dpi.jpg 2x">
                     </div>
                     <h3 class="testimonial__title">Jane Doe</h3>
                     <h4 class="testimonial__subtitle">9 Time Escaper</h4>
@@ -215,10 +216,10 @@
             <div class="row__large-4">
                 <div class="testimonial">
                     <div class="testimonial__photo">
-                        <img src="assets/images/testimonial-john.jpg"
+                        <img class="lazyload"
                              sizes="160px"
                              alt="John"
-                             srcset="assets/images/testimonial-john-hi-dpi.jpg 2x">
+                             data-srcset="assets/images/testimonial-john-hi-dpi.jpg 2x">
                     </div>
                     <h3 class="testimonial__title">John Smith</h3>
                     <h4 class="testimonial__subtitle">4 Time Escaper</h4>
@@ -232,10 +233,10 @@
             <div class="row__large-4">
                 <div class="testimonial testimonial--last">
                     <div class="testimonial__photo">
-                        <img src="assets/images/testimonial-cat.jpg"
+                        <img class="lazyload"
                              sizes="160px"
                              alt="Cat"
-                             srcset="assets/images/testimonial-cat-hi-dpi.jpg 2x">
+                             data-srcset="assets/images/testimonial-cat-hi-dpi.jpg 2x">
                     </div>
                     <h3 class="testimonial__title">Cat McKitty</h3>
                     <h4 class="testimonial__subtitle">6 Time Escaper</h4>
