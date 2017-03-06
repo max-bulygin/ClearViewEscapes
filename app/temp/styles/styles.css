@@ -486,8 +486,12 @@ a {
 }
 
 .large-hero__image {
+  /*display: block;*/
+  height: auto;
+}
+
+.large-hero__image img {
   display: block;
-  font-size: 0;
 }
 
 .large-hero__text-content {
