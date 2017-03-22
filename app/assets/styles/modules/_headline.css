@@ -28,6 +28,10 @@
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+
+  @mixin atSmall {
+    max-width: unset;
+  }
 }
 
 .headline--light {
